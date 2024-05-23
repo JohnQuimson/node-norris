@@ -3,7 +3,6 @@ const port = process.env.PORT || 8000;
 const host = process.env.HOST || 'localhost';
 const fs = require('fs');
 const path = require('path');
-const fetch = require('node-fetch');
 
 const readJSONData = (nomeFile) => {
   const filePath = path.join(__dirname, nomeFile + '.json');
